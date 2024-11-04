@@ -1,0 +1,30 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "snakegamevn",
+          "appId": "1:230253773830:android:9ef43613808aaf98eaef87",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "snakegamevn",
+          "configurations": {
+            "android": "1:230253773830:android:9ef43613808aaf98eaef87",
+            "web": "1:230253773830:web:1811fb2723a347c8eaef87"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
